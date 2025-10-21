@@ -1,0 +1,76 @@
+Oct 10 15:34:16 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 10 15:34:16 newVM sshd[5231]: Server listening on 0.0.0.0 port 22.
+Oct 10 15:34:16 newVM sshd[5231]: Server listening on :: port 22.
+Oct 10 15:34:16 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 10 15:38:08 newVM sshd[5274]: Accepted password for iuliamitisor from 10.0.2.2 port 60790 ssh2
+Oct 10 15:38:08 newVM sshd[5274]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 10 15:41:16 newVM sshd[5483]: Invalid user student from 10.0.2.2 port 60810
+Oct 10 15:41:22 newVM sshd[5483]: pam_unix(sshd:auth): check pass; user unknown
+Oct 10 15:41:22 newVM sshd[5483]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2
+Oct 10 15:41:24 newVM sshd[5483]: Failed password for invalid user student from 10.0.2.2 port 60810 ssh2
+Oct 10 15:42:28 newVM sshd[5483]: Connection reset by invalid user student 10.0.2.2 port 60810 [preauth]
+Oct 10 15:42:40 newVM sshd[5500]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2  user=iuliamitisor
+Oct 10 15:42:43 newVM sshd[5500]: Failed password for iuliamitisor from 10.0.2.2 port 60812 ssh2
+Oct 10 15:43:48 newVM sshd[5500]: Connection reset by authenticating user iuliamitisor 10.0.2.2 port 60812 [preauth]
+Oct 10 15:45:29 newVM sshd[5892]: Accepted password for iuliamitisor from 10.0.2.2 port 57198 ssh2
+Oct 10 15:45:29 newVM sshd[5892]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 10 15:54:50 newVM sshd[6639]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.2  user=iuliamitisor
+Oct 10 15:54:53 newVM sshd[6639]: Failed password for iuliamitisor from 10.0.2.2 port 57275 ssh2
+Oct 10 16:13:32 newVM systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Oct 10 16:13:32 newVM sshd[5231]: Received signal 15; terminating.
+Oct 10 16:13:32 newVM systemd[1]: ssh.service: Deactivated successfully.
+Oct 10 16:13:32 newVM systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+-- Boot 092412e7007b4621a7a6f5de8c07d305 --
+Oct 10 16:17:37 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 10 16:17:37 newVM sshd[1325]: Server listening on 0.0.0.0 port 22.
+Oct 10 16:17:37 newVM sshd[1325]: Server listening on :: port 22.
+Oct 10 16:17:37 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 10 16:19:18 newVM sshd[3829]: Accepted password for iuliamitisor from 10.0.2.2 port 52555 ssh2
+Oct 10 16:19:18 newVM sshd[3829]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+-- Boot af7e22842dad4603b39b3365cd2ba965 --
+Oct 10 16:29:24 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 10 16:29:24 newVM sshd[1299]: Server listening on 0.0.0.0 port 22.
+Oct 10 16:29:24 newVM sshd[1299]: Server listening on :: port 22.
+Oct 10 16:29:24 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 10 16:31:15 newVM sshd[3275]: Accepted password for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 52576 ssh2
+Oct 10 16:31:15 newVM sshd[3275]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 10 16:31:51 newVM sshd[3365]: Accepted password for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 52589 ssh2
+Oct 10 16:31:51 newVM sshd[3365]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+-- Boot 04b58305f3de4474a8db3b6135a5869d --
+Oct 12 17:06:15 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 12 17:06:15 newVM sshd[1389]: Server listening on 0.0.0.0 port 22.
+Oct 12 17:06:15 newVM sshd[1389]: Server listening on :: port 22.
+Oct 12 17:06:15 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+-- Boot 894e226e11064c958121538c7880cfdf --
+Oct 12 17:09:01 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 12 17:09:01 newVM sshd[1305]: Server listening on 0.0.0.0 port 22.
+Oct 12 17:09:01 newVM sshd[1305]: Server listening on :: port 22.
+Oct 12 17:09:01 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 12 17:09:53 newVM sshd[3215]: Accepted password for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 49353 ssh2
+Oct 12 17:09:53 newVM sshd[3215]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 12 17:11:51 newVM sshd[3493]: Accepted password for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 53002 ssh2
+Oct 12 17:11:51 newVM sshd[3493]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 12 17:56:18 newVM sshd[32936]: Accepted password for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 54220 ssh2
+Oct 12 17:56:18 newVM sshd[32936]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 12 18:07:59 newVM sshd[33224]: Accepted password for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 52258 ssh2
+Oct 12 18:07:59 newVM sshd[33224]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 12 18:10:24 newVM sshd[33309]: Accepted publickey for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 63065 ssh2: ED25519 SHA256:dBor9TiGGAbia71iKWdL9p/uCbRdgv0TMOGgFgNX8vY
+Oct 12 18:10:24 newVM sshd[33309]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 12 18:11:02 newVM sshd[33398]: Accepted publickey for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 58233 ssh2: ED25519 SHA256:dBor9TiGGAbia71iKWdL9p/uCbRdgv0TMOGgFgNX8vY
+Oct 12 18:11:02 newVM sshd[33398]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 12 19:29:40 newVM sshd[35127]: Accepted publickey for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 53390 ssh2: ED25519 SHA256:dBor9TiGGAbia71iKWdL9p/uCbRdgv0TMOGgFgNX8vY
+Oct 12 19:29:40 newVM sshd[35127]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+-- Boot cf539e2fcce94a84be12e830c7dd13d7 --
+Oct 15 04:59:58 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 15 04:59:59 newVM sshd[1410]: Server listening on 0.0.0.0 port 22.
+Oct 15 04:59:59 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 15 04:59:59 newVM sshd[1410]: Server listening on :: port 22.
+-- Boot 42209f9317e844d996421e78be9fd67a --
+Oct 17 15:20:31 newVM systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 17 15:20:31 newVM sshd[1344]: Server listening on 0.0.0.0 port 22.
+Oct 17 15:20:31 newVM sshd[1344]: Server listening on :: port 22.
+Oct 17 15:20:31 newVM systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Oct 17 16:34:39 newVM sshd[9473]: Accepted publickey for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 58720 ssh2: ED25519 SHA256:dBor9TiGGAbia71iKWdL9p/uCbRdgv0TMOGgFgNX8vY
+Oct 17 16:34:39 newVM sshd[9473]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
+Oct 17 16:35:06 newVM sshd[9832]: Accepted publickey for iuliamitisor from fe80::5859:b4be:fbe6:9a99%enp0s8 port 58758 ssh2: ED25519 SHA256:dBor9TiGGAbia71iKWdL9p/uCbRdgv0TMOGgFgNX8vY
+Oct 17 16:35:06 newVM sshd[9832]: pam_unix(sshd:session): session opened for user iuliamitisor(uid=1000) by iuliamitisor(uid=0)
